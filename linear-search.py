@@ -1,3 +1,4 @@
+
 arr = []
 
 def f(n):
@@ -15,4 +16,4 @@ def search(arr, target):
     return -1
 
 f(12)
-print(search(arr, 144))
+print(search(arr, 40))
