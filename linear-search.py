@@ -7,5 +7,4 @@ def search(arr, target):
 
     return -1
 
-
 print(search(arr, 5))
