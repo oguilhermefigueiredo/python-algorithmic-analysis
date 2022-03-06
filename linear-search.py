@@ -1,5 +1,5 @@
 
-arr = []
+arr = [1, 2, 3, 4, 5, 5, 5, 1, 2]
 
 def f(n):
     a, b = 0, 1
@@ -9,11 +9,10 @@ def f(n):
         arr.append(b)
 
 def search(arr, target):
-    for number in arr:
-        if number == target:
-            return number
+    if target in arr:
+        return target
 
     return -1
 
-f(12)
-print(search(arr, 40))
+
+print(search(arr, 5))
