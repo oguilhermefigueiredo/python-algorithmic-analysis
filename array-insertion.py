@@ -16,7 +16,7 @@
 # Data Science require python as the default technology.
 ####
 # The repository have more than 7.2k of stars, and you can access my
-# contribution using the link above:
+# contribution using the link below:
 # https://bit.ly/3IJD4PL
 ####
 
