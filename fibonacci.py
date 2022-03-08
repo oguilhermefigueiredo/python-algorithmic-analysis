@@ -1,12 +1,7 @@
 
-# Function to calculate a Fibonacci sequence given the value of an argument "n"
-# It returns the result, and if you need to see the entire sequence, just
-# uncomment the print line to see the whole sequence.
-# This was my first program written in Python, but at first I have to declare
-# three different variables, one for a, one for b and other one for the sum of a
-# and b, but you can do the same operation declaring both initial values at the
-# same time and do the replacement at the same expression.
+# Functions to calculate a Fibonacci sequence given the value of an argument "n"
 
+# Without recursion
 def f(n):
     a, b = 0, 1
 
@@ -15,5 +10,22 @@ def f(n):
 
     return b
 
-print(f(12))
-# OUTPUT: 144
+# With recursion
+def f2(n):
+    if n <= 2:
+        return 1
+
+    return f(n-1) + f(n-2)
+
+#####
+# Testing performance
+
+if __name__ == '__main__':
+    import timeit
+    print(timeit.timeit("f(34)", setup="from __main__ import f"))
+# OUTPUT: 2.2140078649972565
+
+if __name__ == '__main__':
+    import timeit
+    print(timeit.timeit("f2(34)", setup="from __main__ import f2"))
+# OUTPUT: 4.432545242016204
