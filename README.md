@@ -1,4 +1,4 @@
-# Introduction to Computer Science and Programming in Python (MIT)
+# Introduction to Computer Science and Programming in Python
 
 ## Branch
 
