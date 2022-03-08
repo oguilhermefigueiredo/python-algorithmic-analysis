@@ -1,4 +1,4 @@
-# Introduction to Computer Science and Programming in Python
+# Computer Science and Programming in Python
 
 ## Branch
 
