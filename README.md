@@ -49,8 +49,34 @@ over a buch of numbers inside an array without knowing how many values are there
 ## Procedures
 <!--Functions-->
 
-### Decomposition
+## Aliasing
 <!--Structure-->
+Treating elements inside a list as variables can bring up to you a lot of
+different possibilities of action that, otherwise, you would have to do them
+one by one, each time you want to handle an item of a list.
 
-### Abstraction
-<!---->
+Aliasing allows you to point out to values which are piled in a collection
+and give them a simbolic name, becoming new variables accessible outside its
+original block of code.
+
+## Mutability 
+
+Some data types are not elegible of new assignments or alterations of its
+contents. In the other hand, some of them are.
+
+In Python, strings are immutable, meaning that once declared, you cannot just
+add or change its characters without some restrictions, limitations or side
+effects. But lists in Python can be changed from edge to side, being different
+the properties of these asymmetric data types because of the different contexts
+and usability that each of them was meant to be applied to.
+
+Being aware of these disparities of language features and parallelism of 
+computing laws is primordial when dealing with complex problems involving data, 
+mathematical operations, as well as any kind of task and functionality which a 
+software engineer should solve and implement. If you don't know them, these
+responsabilities will come so difficult that months will be necessary to reach
+a solution, being that solution probably the worst among all the other possible
+ones.
+
+## Recursion
+
